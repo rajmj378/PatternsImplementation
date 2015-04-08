@@ -1,6 +1,6 @@
 package com.observer;
 
-public abstract class Subscriber {
+public interface Subscriber {
 	
-	public abstract void update(String s);
+	public abstract void update(NewsPublisher newsPublisher);
 }

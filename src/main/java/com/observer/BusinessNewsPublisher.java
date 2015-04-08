@@ -6,7 +6,7 @@ public class BusinessNewsPublisher extends NewsPublisher {
 	public void notifyAllSubscribers() {
 		for(Subscriber sc:subscribers)
 		{
-			sc.update(latestNews);
+			sc.update(this);
 		}
 	}
 
